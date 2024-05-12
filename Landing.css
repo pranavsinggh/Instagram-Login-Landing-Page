@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 30vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+#outer_img{
+    margin-top: 35px;
+    height: 635px;
+    width: 465px;
+    background-image: url(instagramImg/home-phones.png);
+    position: absolute;
+    /* left: 333px;
+    top: 32px; */
+}
+#inner_img{
+    position: relative;
+    width: 250px;
+    height: 538.84px;
+    background-image: url(instagramImg/screenshot1.png);
+    top: 22px;
+    left: 155px;
+
+    animation: image 20s ease-in-out infinite;
+}
+@keyframes image {
+    0%{
+        background-image: url(instagramImg/screenshot1.png);
+    }
+    25%{
+        background-image: url(instagramImg/screenshot2.png);
+    }
+    50%{
+        background-image: url(instagramImg/screenshot3.png);
+    }
+    100%{
+        background-image: url(instagramImg/screenshot4.png);
+    }
+}
+
+
+#login{
+    margin-top: 45px;   
+    width: 350px;
+    height: 564px;
+}
+#main{
+    width: 350px;
+    height: 407px;
+    border: .5px solid rgba(128, 128, 128, 0.258);
+}
+#inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+}
+#inner img{
+    width: 174px;
+    height: 50px;
+}
+#outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#f{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px    ;
+}
+input{
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.163);
+    padding: 5px;
+    width: 270px;
+    height: 35px;
+    margin: 0px 4px 8px;
+    font-size: small;
+    background-color: #FAFAFA;
+}
+button{
+    background-color: #4CB5F9;
+    border: 0px;
+    font-weight:bold;
+    border-radius: 8px;
+    margin: 8px 4px 4px;
+    width:270px ;
+    color: white;
+    height: 30px;
+}
+#or{
+    margin-top: 5px;
+}
+#or span:nth-child(1),#or span:nth-child(3){
+    color: #73737347;
+}
+#or span:nth-child(2){
+    color: #737373;
+    font-weight: 500;
+    font-size: small;
+    position: relative;
+    top: 8px;
+}
+#facebook{
+    margin: 35px 0px 0px 0px;
+    font-size: 15px;
+    color: #385185;
+    font-weight:600;
+    /* font-weight: bold; */
+}
+#facebook~div{
+    margin-top: 20px;
+    font-size: 12px;
+}
+#signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 65px;
+    border: .5px solid rgba(128, 128, 128, 0.258);
+    font-size: 14px;
+}
+#signup span{
+    color: #5295F6;
+    font-weight: 500;
+}
+#extra{
+    margin: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#extra p{
+    font-size: 14px;
+}
+#extra div{
+    display: inline-block;
+}
+#extra div img:nth-child(1){
+    height: 40px;
+    width: 134px;
+}
+#extra div img:nth-child(2){
+    height: 40px;
+    width: 111px;
+}
+
+footer{
+    margin-top: -30px;
+    font-size: 12px;
+    color: gray;
+}
+#upper{
+    display: flex;
+    justify-content: center;
+    padding: 0px 150px;
+    line-height: 40px;
+}
+span{
+    padding: 0px 8px;
+}
+#lower{
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+i{
+    transform: scale(1.5);
+}
